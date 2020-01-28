@@ -11,7 +11,7 @@ Source0:        https://gitlab.com/leinardi/gst/-/archive/%{version}/%{name}-%{v
 BuildArch:      noarch
 
 BuildRequires:  desktop-file-utils
-BuildRequires:  libappstream-glib
+BuildRequires:  pkgconfig(appstream-glib)
 BuildRequires:  meson
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
