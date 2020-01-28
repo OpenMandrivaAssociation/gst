@@ -18,6 +18,8 @@ BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  python-devel
 Requires:       dbus
 Requires:       hicolor-icon-theme
+Requires:       python3dist(cairocffi)
+Requires:       python3dist(pip)
 Requires:       python3dist(pygobject)
 Requires:       python-humanfriendly
 Requires:       python-injector
@@ -28,6 +30,7 @@ Requires:       python-pyxdg
 Requires:       python-pyyaml
 Requires:       python-requests
 Requires:       python-rx
+Requires:       stress-ng
 
 %description
 GST is a GTK system utility designed to stress and monitoring various hardware
