@@ -2,34 +2,32 @@
 
 Name:           gst
 Version:        0.6.1
-Release:        1%{?dist}
+Release:        1
 Summary:        System utility designed to stress and monitoring various hardware components
 
 License:        GPLv3+
 URL:            https://gitlab.com/leinardi/gst
-Source0:        %{url}/-/archive/%{version}/%{name}-%{version}.tar.gz
+Source0:        https://gitlab.com/leinardi/gst/-/archive/%{version}/%{name}-%{version}.tar.bz2
 BuildArch:      noarch
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  libappstream-glib
-BuildRequires:  meson >= 0.45.1
-BuildRequires:  pkgconfig(gobject-introspection-1.0) >= 1.56.0
-BuildRequires:  pkgconfig(gtk+-3.0) >= 3.22.30
-BuildRequires:  python3-devel
+BuildRequires:  meson
+BuildRequires:  pkgconfig(gobject-introspection-1.0)
+BuildRequires:  pkgconfig(gtk+-3.0)
+BuildRequires:  python-devel
 Requires:       dbus-common
 Requires:       hicolor-icon-theme
-Requires:       python3-gobject >= 3.34.0
-Requires:       python3-humanfriendly >= 4.18
-Requires:       python3-injector >= 0.18.2
-Requires:       python3-matplotlib-gtk3 >= 3.1.1
-Requires:       python3-peewee >= 3.13.1
-#Requires:      python3-psutil >= 5.6.7
-Requires:       python3-psutil
-Requires:       python3-pyxdg >= 0.26
-#Requires:      python3-pyyaml >= 5.3
-Requires:       python3-pyyaml
-Requires:       python3-requests >= 2.22.0
-Requires:       python3-rx >= 3.0.1
+Requires:       python3dist(pygobject)
+Requires:       python-humanfriendly
+Requires:       python-injector
+Requires:       python-matplotlib-gtk3
+Requires:       python-peewee
+Requires:       python-psutil
+Requires:       python-pyxdg
+Requires:       python-pyyaml
+Requires:       python-requests
+Requires:       python-rx
 
 %description
 GST is a GTK system utility designed to stress and monitoring various hardware
@@ -79,12 +77,4 @@ desktop-file-validate %{buildroot}%{_datadir}/applications/*.desktop
 %{_datadir}/icons/hicolor/*/*/*.png
 %{_datadir}/icons/hicolor/symbolic/*/*.svg
 %{_metainfodir}/*.xml
-%{python3_sitelib}/%{name}/
-
-
-%changelog
-* Sun Jan 26 2020 Artem Polishchuk <ego.cordatus@gmail.com> - 0.6.1-1
-- Update to 0.6.1
-
-* Sun Jan 26 2020 Artem Polishchuk <ego.cordatus@gmail.com> - 0.5.0-5
-- Initial package
+%{python_sitelib}/%{name}/
