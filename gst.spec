@@ -21,7 +21,7 @@ Requires:       hicolor-icon-theme
 Requires:       python3dist(pygobject)
 Requires:       python-humanfriendly
 Requires:       python-injector
-Requires:       python-matplotlib-gtk3
+Requires:       python-matplotlib-gtk
 Requires:       python-peewee
 Requires:       python-psutil
 Requires:       python-pyxdg
