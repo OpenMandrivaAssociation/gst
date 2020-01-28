@@ -16,7 +16,7 @@ BuildRequires:  meson
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  python-devel
-Requires:       dbus-common
+Requires:       dbus
 Requires:       hicolor-icon-theme
 Requires:       python3dist(pygobject)
 Requires:       python-humanfriendly
