@@ -17,6 +17,7 @@ BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  python-devel
 Requires:       dbus
+Requires:       dmidecode
 Requires:       hicolor-icon-theme
 Requires:       python3dist(cairocffi)
 Requires:       python3dist(pip)
