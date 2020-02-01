@@ -2,7 +2,7 @@
 
 Name:           gst
 Version:        0.6.1
-Release:        1
+Release:        2
 Summary:        System utility designed to stress and monitoring various hardware components
 
 License:        GPLv3+
@@ -57,8 +57,7 @@ components like CPU and RAM.
 
 %prep
 %autosetup
-sed -e '/meson_post_install/d' -i meson.build
-
+#sed -e '/meson_post_install/d' -i meson.build
 
 %build
 %meson
