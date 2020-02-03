@@ -18,12 +18,14 @@ BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  python-devel
 Requires:       dbus
 Requires:       dmidecode
+Requires:       gettext
 Requires:       hicolor-icon-theme
 Requires:       python3dist(cairocffi)
 Requires:       python3dist(pip)
 Requires:       python3dist(pygobject)
 Requires:       python3dist(python-dateutil)
 Requires:       python3dist(python-xlib)
+Requires:       python3dist(logging)
 Requires:       python-humanfriendly
 Requires:       python-injector
 Requires:       python-matplotlib-gtk
