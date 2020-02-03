@@ -23,6 +23,7 @@ Requires:       python3dist(cairocffi)
 Requires:       python3dist(pip)
 Requires:       python3dist(pygobject)
 Requires:       python3dist(python-dateutil)
+Requires:       python3dist(python-xlib)
 Requires:       python-humanfriendly
 Requires:       python-injector
 Requires:       python-matplotlib-gtk
