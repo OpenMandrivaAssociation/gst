@@ -1,7 +1,7 @@
 %global uuid    com.leinardi.%{name}
 
 Name:           gst
-Version:        0.7.1
+Version:        0.7.4
 Release:        1
 Summary:        System utility designed to stress and monitoring various hardware components
 
