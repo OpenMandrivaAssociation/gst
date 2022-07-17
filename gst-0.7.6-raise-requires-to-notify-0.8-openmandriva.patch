@@ -1,0 +1,24 @@
+diff -uraN gst-0.7.6/bin/gst.in omv-gst-0.7.6/bin/gst.in
+--- gst-0.7.6/bin/gst.in	2022-04-01 11:57:22.000000000 +0200
++++ omv-gst-0.7.6/bin/gst.in	2022-07-17 17:58:52.873201784 +0200
+@@ -43,7 +43,7 @@
+ 
+     gi.require_version('Gtk', '3.0')
+     gi.require_version('Gdk', '3.0')
+-    gi.require_version('Notify', '0.7')
++    gi.require_version('Notify', '0.8')
+     gi.require_version('Gst', '1.0')
+ 
+     from gi.repository import Gio
+diff -uraN gst-0.7.6/.pycharm/gst omv-gst-0.7.6/.pycharm/gst
+--- gst-0.7.6/.pycharm/gst	2022-04-01 11:57:22.000000000 +0200
++++ omv-gst-0.7.6/.pycharm/gst	2022-07-17 17:58:32.346595448 +0200
+@@ -32,7 +32,7 @@
+ 
+     gi.require_version('Gtk', '3.0')
+     gi.require_version('Gdk', '3.0')
+-    gi.require_version('Notify', '0.7')
++    gi.require_version('Notify', '0.8')
+     gi.require_version('Gst', '1.0')
+ 
+     from gi.repository import Gio
