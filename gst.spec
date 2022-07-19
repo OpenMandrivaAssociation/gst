@@ -2,14 +2,12 @@
 
 Name:           gst
 Version:        0.7.6
-Release:        1
+Release:        2
 Summary:        System utility designed to stress and monitoring various hardware components
 Group:          Utility/Stress Test
 License:        GPLv3+
 URL:            https://gitlab.com/leinardi/gst
 Source0:        https://gitlab.com/leinardi/gst/-/archive/%{version}/%{name}-%{version}.tar.bz2
-# By default GST requires as hard dep typelib libnotify 0.7, while we upgrade it to 0.8. So let's patch it to use 0.8
-Patch0:         gst-0.7.6-raise-requires-to-notify-0.8-openmandriva.patch
 BuildArch:      noarch
 
 BuildRequires:  desktop-file-utils
