@@ -2,7 +2,7 @@
 
 Name:           gst
 Version:        0.7.6
-Release:        2
+Release:        3
 Summary:        System utility designed to stress and monitoring various hardware components
 Group:          Utility/Stress Test
 License:        GPLv3+
