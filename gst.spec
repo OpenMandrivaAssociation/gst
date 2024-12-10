@@ -1,8 +1,8 @@
 %global uuid    com.leinardi.%{name}
 
 Name:           gst
-Version:        0.7.6
-Release:        3
+Version:        0.7.7
+Release:        1
 Summary:        System utility designed to stress and monitoring various hardware components
 Group:          Utility/Stress Test
 License:        GPLv3+
